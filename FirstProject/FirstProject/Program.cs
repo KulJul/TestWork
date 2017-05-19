@@ -10,7 +10,7 @@ namespace FirstProject
     {
         static void Main(string[] args)
         {
-            double one = 1.3;
+            double one = 1.32;
         }
     }
 }
