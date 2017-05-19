@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9272A638-2428-4E7A-ABA0-A2796D4638FB}</ProjectGuid>
+    <ProjectGuid>{6304CA4E-BFC3-4A2D-8EAA-FC3D5AEEDA1B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FirstProject</RootNamespace>
-    <AssemblyName>FirstProject</AssemblyName>
+    <RootNamespace>SecondProdject</RootNamespace>
+    <AssemblyName>SecondProdject</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,12 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SecondProdject\SecondProdject.csproj">
-      <Project>{6304ca4e-bfc3-4a2d-8eaa-fc3d5aeeda1b}</Project>
-      <Name>SecondProdject</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
